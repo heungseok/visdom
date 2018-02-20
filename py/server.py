@@ -22,6 +22,8 @@ import getpass
 import argparse
 import copy
 import visdom
+import html
+
 
 from os.path import expanduser
 from zmq.eventloop import ioloop
@@ -353,7 +355,14 @@ def window(args):
     }
 
     if ptype in ['image', 'text']:
+        print("in window, data is displayed in this function")
+        print(args['data'][0]['content'])
+
+        if ptype in ['text']:
+            args['data'][0]['content'] = html.unescape(args['data'][0]['content'])
         p.update(dict(content=args['data'][0]['content'], type=ptype))
+
+
     else:
         p['content'] = dict(data=args['data'], layout=args['layout'])
         p['type'] = 'plot'
@@ -515,6 +524,8 @@ class UpdateHandler(BaseHandler):
         # Update text in window, separated by a line break
         if p['type'] == 'text':
             p['content'] += "<br>" + args['data'][0]['content']
+            print("in update function")
+            print(p)
             return p
 
         pdata = p['content']['data']
@@ -727,6 +738,8 @@ class SaveHandler(BaseHandler):
         args = tornado.escape.json_decode(
             tornado.escape.to_basestring(self.request.body)
         )
+        print("in post!")
+        print(args)
         self.wrap_func(self, args)
 
 
