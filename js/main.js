@@ -861,8 +861,11 @@ class App extends React.Component {
   }
 
   render() {
+
     let panes = Object.keys(this.state.panes).map((id) => {
       let pane = this.state.panes[id];
+      console.log(pane)
+      console.log(typeof(pane.content))
       let Comp = PANES[pane.type];
       if (!Comp) {
         console.error('unrecognized pane type: ', pane);
