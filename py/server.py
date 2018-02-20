@@ -358,11 +358,7 @@ def window(args):
         print("in window, data is displayed in this function")
         print(args['data'][0]['content'])
 
-        if ptype in ['text']:
-            args['data'][0]['content'] = html.escape(args['data'][0]['content'])
-            print(args['data'][0]['content'])
-            args['data'][0]['content'] = html.unescape(args['data'][0]['content'])
-            print(args['data'][0]['content'])
+
         p.update(dict(content=args['data'][0]['content'], type=ptype))
 
 
