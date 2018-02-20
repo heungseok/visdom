@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa74cbb-beed-49ea-b823-f902089a3408" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/py/server.py" afterPath="$PROJECT_DIR$/py/server.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,8 +40,18 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="358" column="41" lean-forward="true" selection-start-line="358" selection-start-column="41" selection-end-line="358" selection-end-column="41" />
+            <state relative-caret-position="519">
+              <caret line="364" column="45" lean-forward="false" selection-start-line="364" selection-start-column="45" selection-end-line="364" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pane.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Pane.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="77" column="28" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -120,6 +131,7 @@
       <find>update</find>
       <find>ptype</find>
       <find>'text'</find>
+      <find>post</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519099311228</updated>
-      <workItem from="1519099314691" duration="4641000" />
+      <workItem from="1519099314691" duration="5707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4641000" />
+    <option name="totallyTimeSpent" value="5707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1200" extended-state="0" />
@@ -272,14 +284,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/Pane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="77" column="28" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -352,10 +356,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Pane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="77" column="28" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="358" column="41" lean-forward="true" selection-start-line="358" selection-start-column="41" selection-end-line="358" selection-end-column="41" />
+        <state relative-caret-position="519">
+          <caret line="364" column="45" lean-forward="false" selection-start-line="364" selection-start-column="45" selection-end-line="364" selection-end-column="45" />
           <folding />
         </state>
       </provider>
