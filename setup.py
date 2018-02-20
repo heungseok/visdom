@@ -19,7 +19,7 @@ setup(
     version='0.1.7.2',
     author='Allan Jabri, Jack Urbanek, Laurens van der Maaten',
     author_email='jju@fb.com',
-    url='https://github.com/facebookresearch/visdom',
+    url='https://github.com/heungseok/visdom',
     description='A tool for visualizing live, rich data for Torch and Numpy',
     long_description=readme,
     license='CC-BY-4.0',
