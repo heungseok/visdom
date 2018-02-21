@@ -865,6 +865,9 @@ class App extends React.Component {
     let panes = Object.keys(this.state.panes).map((id) => {
       let pane = this.state.panes[id];
       console.log(pane)
+      if (pane.type == "text"){
+        pane.content[0] = pane.content[0].replace(/&lt;/g,"<").replace(/&gt;/g,">")
+      }
       console.log(typeof(pane.content))
       let Comp = PANES[pane.type];
       if (!Comp) {
